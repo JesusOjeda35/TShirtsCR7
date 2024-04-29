@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+/*variables pagina*/
+:root{
+
+}
+
+.header_prin{
+    background-color: #fffedb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 5px 8%;
+}
+.header_prin .logo_header{
+    cursor: pointer;
+}
+
+.header_prin .logo_header img{
+    height: 85px;
+    margin: auto;
+    transition: all 0.3s;
+}
+
+.header_prin .logo_header img:hover{
+    transform: scale(1.1);
+}
+.header_prin .nav_linksp{
+    list-style: none;
+}
+.header_prin .nav_linksp li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header_prin .nav_linksp li:hover{
+    transform: scale(1.2);
+}
+
+.header_prin .nav_linksp a{
+    color: #149c68;
+    text-decoration: none;
+}
+
